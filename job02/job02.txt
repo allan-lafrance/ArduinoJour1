@@ -1,0 +1,17 @@
+Pour calculer la valeur de la résistance nécessaire pour limiter le courant traversant la LED à 10 milliampères, nous pouvons utiliser la loi d'Ohm :
+
+R = (V_alim - V_LED) / I_LED
+
+Où :
+
+R est la valeur de la résistance en ohms
+V_alim est la tension d'alimentation de l'Arduino, soit 5 volts
+V_LED est la tension seuil de la LED, soit 2 volts
+I_LED est le courant souhaité à travers la LED, soit 10 milliampères
+En substituant ces valeurs dans la formule, nous obtenons :
+
+R = (5 - 2) / 0.01
+
+R = 300 ohms
+
+Par conséquent, la valeur de la résistance nécessaire pour limiter le courant traversant la LED à 10 milliampères est de 300 ohms.
